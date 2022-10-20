@@ -1,11 +1,11 @@
 package com.hendisantika.model;
 
 
-import javax.validation.constraints.NotBlank;
+//import javax.validation.constraints.NotBlank;
 
 public class SearchCriteria {
 
-    @NotBlank(message = "username can't empty!")
+//    @NotBlank(message = "username can't empty!")
     String username;
 
     public String getUsername() {

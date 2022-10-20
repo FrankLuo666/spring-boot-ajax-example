@@ -66,10 +66,12 @@ public class UserService {
         User user1 = new User("mkyong", "password111", "mkyong@yahoo.com");
         User user2 = new User("hendisantika", "password222", "hendisantika@yahoo.co.id");
         User user3 = new User("luffy", "password333", "luffy@yahoo.com");
+        User user4 = new User("admin", "password123", "admin@yahoo.com");
 
         users.add(user1);
         users.add(user2);
         users.add(user3);
+        users.add(user4);
 
     }
 
